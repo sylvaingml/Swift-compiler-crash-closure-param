@@ -19,7 +19,7 @@ class Counter
         )
     {
         let section = Sections(rawValue: indexPath.indexAtPosition(0))
-        if ( .counters == section )
+        if ( Sections.counters == section )
         {
             value = operation(value)
         }
