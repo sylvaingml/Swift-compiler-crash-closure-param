@@ -24,8 +24,7 @@
 		E4268A131A87D51F003A94E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4268A151A87D51F003A94E5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4268A181A87D51F003A94E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E4268A231A87D51F003A94E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4268A241A87D51F003A94E5 /* EmptyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyAppTests.swift; sourceTree = "<group>"; };
+		E4268A2D1A87D6CE003A94E5 /* Testing compiler crash.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Testing compiler crash.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,9 +41,9 @@
 		E42689FD1A87D45B003A94E5 = {
 			isa = PBXGroup;
 			children = (
+				E4268A2D1A87D6CE003A94E5 /* Testing compiler crash.playground */,
 				E4268A041A87D46C003A94E5 /* Counter.swift */,
 				E4268A0B1A87D51F003A94E5 /* EmptyApp */,
-				E4268A211A87D51F003A94E5 /* EmptyAppTests */,
 				E4268A0A1A87D51F003A94E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,23 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				E4268A0D1A87D51F003A94E5 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E4268A211A87D51F003A94E5 /* EmptyAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4268A241A87D51F003A94E5 /* EmptyAppTests.swift */,
-				E4268A221A87D51F003A94E5 /* Supporting Files */,
-			);
-			path = EmptyAppTests;
-			sourceTree = "<group>";
-		};
-		E4268A221A87D51F003A94E5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4268A231A87D51F003A94E5 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
